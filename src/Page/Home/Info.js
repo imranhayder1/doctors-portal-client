@@ -6,7 +6,7 @@ import Infocard from './Infocard';
 
 const Info = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-12'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             <Infocard cardTitle='Opening Hours' bgclass='bg-primary' img={clock}></Infocard>
             <Infocard cardTitle='Visit our location' bgclass='bg-accent' img={marker}></Infocard>
             <Infocard cardTitle='Contact us now' bgclass='bg-primary' img={phone}></Infocard>
