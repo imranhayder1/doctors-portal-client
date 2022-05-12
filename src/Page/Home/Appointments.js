@@ -4,16 +4,16 @@ import appointback from '../../assets/images/appointment.png';
 import Button from '../Button/Button';
 
 
-const Appointment = () => {
+const Appointments = () => {
     return (
         <div style={{
             background: `url(${appointback})`
         }}
             className='flex justify-center items-center my-36'>
-            <div className='flex-1'>
+            <div className='flex-1 hidden lg:block'>
                 <img className='mt-[-100px]' src={appoint} alt="" />
             </div>
-            <div className='flex-1 text-white px-10'>
+            <div className='flex-1 text-white px-10 py-20 lg:py-0'>
                 <p className='text-primary uppercase'>Appointment </p>
                 <h2>Make an appointment Today</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
@@ -25,4 +25,4 @@ const Appointment = () => {
     );
 };
 
-export default Appointment;
+export default Appointments;
